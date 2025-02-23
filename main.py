@@ -62,7 +62,7 @@ class IMG_Stegno:
         return True
 
     def main(self, root):
-        root.title('ImageSteganography Tool')
+        root.title('Image Steganography Tool')
         root.geometry('500x600')
         root.resizable(width=False, height=False)
         root.config(bg='#e3f4f1')
