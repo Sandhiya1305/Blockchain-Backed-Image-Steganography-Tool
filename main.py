@@ -50,7 +50,7 @@ class IMG_Stegno:
     def verify_password(self):
         root = tk.Tk()
         root.withdraw()
-        correct_password = '400291' 
+        correct_password = '12345678' 
         
         password = simpledialog.askstring("Password Required", "Enter the password to access the application:", show='*')
         if password != correct_password:
@@ -62,7 +62,7 @@ class IMG_Stegno:
         return True
 
     def main(self, root):
-        root.title('ImageSteganography by Rishav')
+        root.title('ImageSteganography Tool')
         root.geometry('500x600')
         root.resizable(width=False, height=False)
         root.config(bg='#e3f4f1')
